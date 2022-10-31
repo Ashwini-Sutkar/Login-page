@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+       
+</head> 
+<style>
+    /* *{
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box ;
+    } */
+    body{
+        background-color: #f8f8f8;
+        position: fixed;
+    }
+    .login{
+        font-family: 'Montserrat', sans-serif;
+        color: #7030a0;
+        margin-top: 67px;
+        margin-left: 50%;
+        padding-bottom: 20px;
+    }
+    .email{
+        font-family: 'Montserrat', sans-serif;
+        background-color: white;
+        border-radius: 5px;
+        border: transparent;
+        width: 430px;
+        height: 31px;
+        font-size: 1rem;
+       line-height: 2.15;
+       padding-left: 0.75em;
+       padding-right: 0.75em;
+       
+    }
+    .password{
+        font-family: 'Montserrat', sans-serif;
+        background-color: white;
+        border-radius: 5px;
+        border: transparent;
+        width: 430px;
+        height: 31px;
+    }
+    .f-password{
+        color: #7030a0;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 64%;
+    }
+    .btn{
+        color: #ffffff;
+        background-color:#7030a0; 
+        border-radius: 10px;
+        border: transparent;
+        width: 154px;
+        height: 31px;
+        margin-left: 46%;
+    }
+</style>
+<body>
+      <div class="container-fluid">
+        <div>
+            <img src="images/Top-Banner-2.png" height="200px" width="120%">
+
+        </div>
+        <div>
+            <form>
+                <h4 class="login">Login</h4>
+                <label style="font-family: 'Montserrat', sans-serif; margin-left: 450px" for="email" > <b>Email ID*</b></label>
+                <input   class="email" type="email" id="email" name="email" placeholder="Your email id..."><br><br>
+                <label style="font-family: 'Montserrat', sans-serif;  margin-left: 450px" for="email"><b> Password</b></label>
+                <input  class="password"  type="password" id="password" name="password" placeholder="Type Password...">
+                <h6 class="f-password">Forgot Password?</h6>
+                <button class="btn">Login</button>
+
+
+            </form>
+        </div>
+
+      </div>
+
+    
+</body>
+</html>
